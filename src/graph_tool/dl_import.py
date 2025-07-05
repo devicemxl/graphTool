@@ -17,7 +17,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
+'''
 from __future__ import division, absolute_import, print_function
 
 import sys
@@ -59,3 +59,4 @@ def dl_import(import_expr):
         sys.setdlopenflags(orig_dlopen_flags)  # reset it to normal case to
                                                # avoid unnecessary symbol
                                                # collision
+                                               '''
